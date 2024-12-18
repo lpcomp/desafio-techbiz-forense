@@ -6,7 +6,7 @@ enum Gender {
     'M' = 'Masculino'
 }
 
-const checkGender = (gender: 'F' | 'M' | undefined):GenderExit => {
+const checkGender = (gender: 'F' | 'M' | undefined | null):GenderExit => {
     return gender ? Gender[gender] : '--';
 }
 
