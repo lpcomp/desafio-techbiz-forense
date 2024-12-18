@@ -7,7 +7,8 @@ Um projeto desenvolvido para análise investigativa de dados utilizando React e 
 1. Clone este repositório `https://github.com/lpcomp/desafio-techbiz-forense.git`.
 2. Instale as dependências usando `npm install`.
 
-OBS: Certifique-se de ter o Node.js instalado (recomenda-se a versão 16 ou superior) para rodar o projeto.
+- OBS: Certifique-se de ter o Node.js instalado (recomenda-se a versão 16 ou superior) para rodar o projeto.
+- OBS: Recomendo a versão `v22.11.0` do Node.js.
 
 ## Tecnologias Utilizadas
 
