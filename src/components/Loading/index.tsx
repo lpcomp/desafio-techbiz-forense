@@ -5,7 +5,7 @@ import { Content } from './styles';
 const Loading = () => {
     return (
         <Content>
-            <Spin indicator={<LoadingOutlined spin />} size="large" className='loading' />
+            <Spin indicator={<LoadingOutlined spin />} size="large" className='loading' data-testid='loading-icon' />
         </Content>        
     )
 }

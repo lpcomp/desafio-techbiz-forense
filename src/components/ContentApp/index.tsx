@@ -5,7 +5,7 @@ import { Content } from './styles';
 
 const ContentApp = () => {
     return (
-        <Content>
+        <Content data-testid='content-search'>
             <Layout className='layout-father full-height-content'>
                 <Layout className='layout-child padding-layout'>
                     <Breadcrumb
