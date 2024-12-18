@@ -6,6 +6,7 @@ import usersWithoutBookmark from '../../utils/usersWithoutBookmark';
 import { closePeopleItems, phoneItems, addressItems } from '../../utils/itemsDescription';
 
 const ClosePeopleDescription = ({ data }: { data?: UserForCPF}) => {
+    const itemsPerPage = 2;
     const [usersInfo, setUsersInfo] = useState<Array<User>>();
 
     useEffect(() => {
@@ -18,7 +19,7 @@ const ClosePeopleDescription = ({ data }: { data?: UserForCPF}) => {
         <Content>
             <List
                 pagination={{                
-                    pageSize: 2,
+                    pageSize: itemsPerPage,
                 }}
                 bordered
                 dataSource={usersInfo}
